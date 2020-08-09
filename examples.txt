@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+
+<body style="max-width:400px;margin:16x;border:1px solid #ccc">
+
+
+
+
+
+<header class="w3-container w3-card-4 w3-theme-12">
+
+</header>
+
+<div class="w3-display-container w3-green w3-spin" style="height:300px;">
+  <div class="w3-display-topleft w3-spin" id="9776" >HEAVEN</div>
+  <div class="w3-display-topright">HEAVEN</div>
+  <div class="w3-display-bottomleft w3-spin" id="9779">&#129314;</div>
+  <div class="w3-display-bottomright w3-spin" id="9780">WIND</div>
+  <div class="w3-display-left" id="9781">WATER</div>
+  <div class="w3-display-right" id="9782">MOUNTAIN</div>
+  <div class="w3-display-middle" id="9777" >&#129314;&#129314;&#129314;&#129314;&#129314;&#129314;&#129314;&#129314;</div>
+  <div class="w3-display-topmiddle" id="9783">EARTH</div>
+  <div class="w3-display-bottommiddle" id="9778">FIRE</div>
+</div>
+
+
+<div class="w3-row">
+
+  <div class="w3-col s6 w3-container"></div>
+  <div class="w3-col s6 w3-container"></div>
+</div> 
+
+<hr>
+
+<div class="w3-row">
+  <div class="w3-col s9 w3-container"></div>
+  <div class="w3-col s3 w3-container"></div>
+</div>
+
+
+<hr>
+
+<div class="w3-row">
+  <div class="w3-col s3 w3-container">
+     
+  </div>
+  <div class="w3-col s9 w3-container"></div>
+</div>
+
+
+
+<footer class="w3-container w3-theme-l2" style="position:relative">
+  &nbsp;
+</footer>
+
+<div class="w3-container w3-theme-dark w3-xlarge">&nbsp;<span class="w3-right">&nbsp;</span></div>
+</body>
+</html> 
