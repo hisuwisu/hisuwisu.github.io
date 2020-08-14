@@ -1,0 +1,46 @@
+<svg height="100%" width="100%" viewBox="0 0 500 800">
+  <style>
+    @keyframes fade {
+      from {
+        fill-opacity: 1;
+        fill: navy;
+      }
+
+      to {
+        fill-opacity: 0
+      }
+    }
+
+    #c1 {
+      animation: fade 3.6s 0s infinite
+    }
+
+    #c2 {
+      animation: fade 3.6s -0.3s infinite
+    }
+
+    #c3 {
+      animation: fade 3.6s -0.6s infinite
+    }
+
+    #c4 {
+      animation: fade 0.24s -0.24s infinite
+    }
+  </style>
+  <!-- NOTE: 5 In A CLub -->
+  <g fill="hsl(30,90%,50%)">
+    <rect id="c1" width="100" height="90" x="300" y="0" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+    <rect id="c2" width="100" height="90" x="200" y="0" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+    <rect id="c3" width="100" height="90" x="100" y="0" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+    <rect id="c4" width="100" height="90" x="0" y="0" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+    <rect id="c5" width="100" height="90" x="400" y="0" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+  </g>
+  <!-- NOTE: ROW 8 -->
+  <g fill="hsl(30,90%,50%)">
+    <rect id="c200" width="100" height="90" x="0" y="100" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+    <rect id="c300" width="100" height="90" x="0" y="200" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+    <rect id="c400" width="100" height="90" x="0" y="300" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+    <rect id="c600" width="100" height="90" x="0" y="600" rx="0" stroke="silver" fill="hsla(170,30%,85%,0.5)" stroke-width="4" />
+  
+  </g>
+</svg>
