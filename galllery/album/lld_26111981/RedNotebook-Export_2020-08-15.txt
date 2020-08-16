@@ -18,4 +18,38 @@ ES SCHADET MIR UND DEN KINDERN DU SAGTS WAS ANDERES MAG SEIN DANN BIST DU UNS SC
 3. eol : END OF LIST EINGERTAGEN : TM,15.08.2020 17:59:39, Samstag, Tag 228
 
 
-<svg viewBox="135.084 610.38 369 107.35" xmlns="http://www.w3.org/2000/svg">
+https://werner-zenk.de/javascript/schieberegler_fuer_bilder.php
+
+https://werner-zenk.de/javascript/markierten_text_in_ein_eingabefeld_einfuegen.php
+
+https://werner-zenk.de/javascript/anzahl_der_woerter_als_fortschrittsbalken_anzeigen.php
+
+
+<script>
+// Ausgabe des aktuellen Datums
+
+  var H=new Date(),T=H.getDate(),M=H.getMonth()+1,J=H.getFullYear();
+  document.write(T+"."+M+"."+J)
+</script>
+
+
+<script>
+// Ausgabe des aktuellen Datums mit Mon, ats- und Tagesnamen
+
+var W = new Array('So','Mo','Di','Mi','Do','Fr','Sa','So'),H=new Date(),
+E = new Array("Januar","Februar","März","April","Mai","Juni",
+ "Juli","August","September","Oktober","November","Dezember");
+ document.write(W[H.getDay()]+", "+H.getDate()+" "+E[H.getMonth()]+" "+H.getFullYear())
+</script>
+
+
+https://werner-zenk.de/javascript/bb-code_in_einem_textarea_einfuegen.php
+
+
+https://werner-zenk.de/javascript/html-tags_in_benannte_zeichen_umwandeln.php
+
+https://werner-zenk.de/javascript/outerhtml_-_quelltext_anzeigen.php
+https://werner-zenk.de/javascript/suchen_und_ersetzen.php
+
+https://werner-zenk.de/javascript/text_ueber_id_auslesen_und_aendern.php
+
