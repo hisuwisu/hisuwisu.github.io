@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Index of Homepage</title>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- NOTE : 
+      tryw3css_examples_contact.html 
+      Symbole HTML , bemutzen , Vermerk in README.md wenn erledigt
+      
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="w3-container">
+  <header>
+     <!-- NOTE:
+        include content template headern, *.pug wird forsorglich gesetzt und benannt steigt.später in die Schule Wenn CodePen online steigen PUg & VUE mit ein
+        Ist dank Leistungsnachweis bitte an meine Schule zu senden ich lerne es und zeichne es auf screen record muss eigentlich immner an ja ok check out 1533
+      -->
+      <section>
+        <article w3-include-html="header.pug"></article>
+      </section>
+  </header>
+  <main>
+    <!-- NOTE:
+    include content template formular
+  -->
+    <section class="w3-panel w3-green w3-large">
+      <article w3-include-html="content.pug"></article>
+      <!-- NOTE : 
+        article ist einzubinden Objekte in der Sektion
+      -->
+    </section>
+    <section class="w3-panel w3-green w3-large">
+      <!-- NOTE : 
+            article ist einzubinden Objekte in der Sektion
+          -->
+      <article w3-include-html="contact.pug"></article>
+    </section>
+  </main>
+  <footer>
+    <!-- NOTE:
+    include content template 
+  -->
+  </footer>
+  <!-- NOTE:
+    append script 
+  -->
+  <script>
+    w3.includeHTML();
+  </script>
+
+</html>
